@@ -1,0 +1,9 @@
+# Ignore Docker local Postgres data and other local artifacts
+.docker/
+
+# Environment files (keep .env.example tracked)
+.env
+.env.local
+
+# macOS
+.DS_Store
